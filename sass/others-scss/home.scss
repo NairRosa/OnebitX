@@ -29,6 +29,7 @@
 .arrowDown {
   display: inline-block;
   width: 90px;
+  padding-top: 50px;
   margin-top: 5px;
 }
 
@@ -54,10 +55,13 @@
 #lauchComing {
   // padding-top: 200px;
   font-size: 30px;
+  padding-top: 20px;
+
 }
 
 .shortTitle {
   width: 550px;
+  font-weight: 200;
   margin-bottom: -25px;
 }
 
@@ -157,13 +161,6 @@
   padding-bottom: 300px;
 }
 
-// .titleOverView {
-//   font-size: 22px;
-//   width: 630px;
-//   line-height: 50px;
-//   padding-bottom: 300px;
-// }
-
 #overViewPosition {
   width: 500px;
   margin-left: 13%;
@@ -201,3 +198,65 @@
   background-color: #000000;
 }
 
+// Human Space Fligth
+
+.container00 {
+  &.container08 {
+    background-image: url(/Desktop/Bootstrap-OBC/img/humanFlight/01.jpg);
+  }
+  &.container09 {
+    background-image: url(/Desktop/Bootstrap-OBC/img/humanFlight/02.jpg);
+    text-align: center;
+    padding-left: 700px;
+  }
+  &.container10 {
+    background-image: url(/Desktop/Bootstrap-OBC/img/humanFlight/03.jpg);
+  }
+  &.container11 {
+    background-image: url(/Desktop/Bootstrap-OBC/img/humanFlight/04.jpg);
+    text-align: center;
+    padding-left: 650px;
+  }
+  &.container12 {
+    background-image: url(/Desktop/Bootstrap-OBC/img/humanFlight/05.jpg);
+  }
+}
+
+.text p {
+  text-decoration: none;
+  color: white;
+}
+
+.text a {
+  text-decoration: none;
+  color: gray;
+}
+
+.shortTitleRigth {
+  text-align: start;
+}
+
+#lauchComingRigth {
+  text-align: start;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#buttonRigth {
+  width: 180px;
+  height: 60px;
+}
+
+.lauchComingHSF {
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 20px;
+  padding: 20px;
+}
+
+.shortTitleHSF {
+  width: 550px;
+  padding: 50px 0px;
+  padding-bottom: 50px;
+  margin-bottom: -25px;
+}

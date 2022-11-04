@@ -29,6 +29,7 @@
 .arrowDown {
   display: inline-block;
   width: 90px;
+  padding-top: 50px;
   margin-top: 5px;
 }
 
@@ -51,10 +52,12 @@
 
 #lauchComing {
   font-size: 30px;
+  padding-top: 20px;
 }
 
 .shortTitle {
   width: 550px;
+  font-weight: 200;
   margin-bottom: -25px;
 }
 
@@ -185,4 +188,56 @@
 
 .carousselText {
   background-color: #000000;
+}
+
+.container00.container08 {
+  background-image: url(/Desktop/Bootstrap-OBC/img/humanFlight/01.jpg);
+}
+.container00.container09 {
+  background-image: url(/Desktop/Bootstrap-OBC/img/humanFlight/02.jpg);
+  text-align: center;
+  padding-left: 700px;
+}
+.container00.container10 {
+  background-image: url(/Desktop/Bootstrap-OBC/img/humanFlight/03.jpg);
+}
+.container00.container11 {
+  background-image: url(/Desktop/Bootstrap-OBC/img/humanFlight/04.jpg);
+  text-align: center;
+  padding-left: 650px;
+}
+.container00.container12 {
+  background-image: url(/Desktop/Bootstrap-OBC/img/humanFlight/05.jpg);
+}
+
+.text p {
+  text-decoration: none;
+  color: white;
+}
+
+.text a {
+  text-decoration: none;
+  color: gray;
+}
+
+.shortTitleRigth {
+  text-align: start;
+}
+
+#lauchComingRigth {
+  text-align: start;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#buttonRigth {
+  width: 180px;
+  height: 60px;
+}
+
+.lauchComingHSF {
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 20px;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
